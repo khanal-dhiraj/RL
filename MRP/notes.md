@@ -40,7 +40,7 @@ $$
 2. **Loop** until change $<\text{tol}$:
 
    $$
-   V^{(k+1)} \;\leftarrow\; R \;+\; \gamma\,P\,V^{(k)}
+   V^{(k+1)} \leftarrow R + \gamma\,P\,V^{(k)}
    $$
 
 3. **Converged** $V^{(\infty)}$ satisfies the Bellman equation above.
