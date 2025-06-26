@@ -29,7 +29,7 @@ The goal: compute **how much long-term goodness** you’ll collect if you start 
 Mathematically (Bellman expectation equation):
 
 $$
-V(s) \;=\; R(s)\;+\;\gamma \sum_{s'} P_{s,s'}\,V(s')
+V(s) = R(s) + \gamma \sum_{s'} P_{s,s'}V(s')
 $$
 
 ---
